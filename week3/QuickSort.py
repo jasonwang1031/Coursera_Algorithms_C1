@@ -34,7 +34,16 @@ def Partition(A):
     
     return A,i-1
 
+# def readfile():
+#     file = open("quiz.txt")
+#     x = []
+#     for line in file:
+#         number = line.strip('\n')
+#         no = int(number)
+#         x.append(no)
+#     return x
 
+# x = readfile()
 
 A = [3,1,5,4,6,8,9,4,6,0,3,2,1,5]
 #N = 7
